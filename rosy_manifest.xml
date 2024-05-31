@@ -11,7 +11,7 @@
 	<project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy/" remote="alston" revision="lineage-18.1" />
 	
 	<!--Vendor -->
-	<project path="vendor/xiaomi" name="android_vendor_xiaomi_rosy/" remote="alston" revision="eleven" />
+	<project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy/" remote="alston" revision="eleven" />
  
 	<!--Extras -->
 	<!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
