@@ -2,18 +2,22 @@
 <manifest>
 	
 	<!-- Remotes -->
-	<remote name="alston" fetch="https://github.com/05Alston/"/>
+	<remote name="baunilla" fetch="https://github.com/baunilla/"/>
+	<remote name="lineage" fetch="https://github.com/LineageOS/"/>
+	<remote name="aepranata" fetch="https://github.com/aepranata/"/>
 	
 	<!--Tree -->
-	<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy/" remote="alston" revision="lineage-18.1" />
+	<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy/" remote="baunilla" revision="lineage-21.0" />
 	
 	<!--Kernel -->
-	<project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy/" remote="alston" revision="lineage-18.1" />
+	<project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy/" remote="baunilla" revision="lineage-21.0" />
 	
 	<!--Vendor -->
-	<project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy/" remote="alston" revision="eleven" />
+	<project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy/" remote="aepranata" revision="14" />
  
 	<!--Extras -->
+	<!-- Extra hardware configurations -->
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi/" remote="lineage" revision="lineage-21" />
 	<!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
  
 </manifest>
