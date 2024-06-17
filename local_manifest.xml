@@ -2,12 +2,13 @@
 <manifest>
 	
 	<!-- Remotes -->
+	<remote name="alston" fetch="https://github.com/05Alston/"/>
 	<remote name="baunilla" fetch="https://github.com/baunilla/"/>
 	<remote name="lineage" fetch="https://github.com/LineageOS/"/>
 	<remote name="aepranata" fetch="https://github.com/aepranata/"/>
 	
-	<!--Tree -->
-	<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy/" remote="baunilla" revision="lineage-21.0" />
+	<!--Device -->
+	<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy/" remote="alston" revision="voltage-UDC" />
 	
 	<!--Kernel -->
 	<project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy/" remote="baunilla" revision="lineage-21.0" />
