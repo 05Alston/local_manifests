@@ -14,7 +14,7 @@
 	<project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy/" remote="baunilla" revision="lineage-21.0" />
 	
 	<!--Vendor -->
-	<project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy/" remote="aepranata" revision="14" />
+	<project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy/" remote="aepranata" revision="14" />
  
 	<!--Extras -->
 	<!-- Extra hardware configurations -->
