@@ -7,7 +7,7 @@
 	<remote name="Pulkit077" fetch="https://github.com/Pulkit077/"/>
 	
 	<!--Tree -->
-	<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy/" remote="alston" revision="havoc-4.xx" />
+	<project path="device/xiaomi/rosy" name="device_xiaomi_rosy/" remote="Pulkit077" revision="eleven" />
 	
 	<!--Kernel -->
 	<project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy/" remote="baunilla" revision="lineage-18.1" />
